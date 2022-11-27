@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Profile</title>
+	<link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+            <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+	    </ol>
+	</nav>
+
+    <h1 class = "profile-h1">About Cody Fong</h1>
+
+    <div class ="container">
+
+        <h2 class ="profile-h2">Skills</h2>
+            <p>I am a pretty skilled mathematician, and have studied calculus all the way to the point of being able to solve systems of partial differential equations numerically. When I was younger, I was very passionate about numerical methods. I have also studied some discrete mathematics and modern physics.</p>
+            <p>Aside from this, I would say I am a pretty strong problem solver. I have studied many subfields of Chemical Engineering. These include the following: </p>
+            <ul class ="about-list">
+                <li>Fluid Mechanics</li>
+                <li>Thermodynamics</li>
+                <li>Heat Transfer</li>
+                <li>Mass Transfer</li>
+                <li>Kinetics</li>
+                <li>Chemistry</li>
+                <li>Semiconductors</li>
+            </ul>
+            <p>Most of these fields require pretty strong physics and math backgrounds, which I would say I have, relative to many others.</p>
+            <p>Some problems even require writing code to solve more easily!</p>
+
+        <h2 class ="profile-h2">Interests</h2>
+        <h3 class ="about-me"> Here's three things I am passionate about: </h3>
+
+        <ol class ="about-list" id = "interest-list">
+            <li>Gaming</li>
+            <li>Language</li>
+            <li>Cats</li>
+        </ol>
+        <p>I really like gaming, and it is what I spend the majority of my time 
+            doing. I am very passionate about theory and strategy in games, 
+            I am defintely at the point where it is taking a very big toll on 
+            my life, and I should try to be healthier.</p>
+        <p>I have always had an interest in language, so much so that I 
+            have studied linguistics in college (this was difficult and probably 
+            not worth my time). I think it is very interesting to hear how people 
+            speak in their own native language. Many people hear people speaking 
+            out of their native language (and in the listener's native language) 
+            and percieve them as less intelligent. I have always believed that 
+            this judgement was extremely naive.
+        </p>
+        <p>I have studied Mandarin and Spanish to the point where I can comprehend 
+            Mandarin and read and write Spanish to a somewhat reasonable level. 
+            More recently, I have tried learning Japanese, as I think the culture is 
+            very interesting. For me, this has been one of my most difficult recent goals.
+        </p>
+        <p> I like cats. I think they're fun and funny. I somewhat recently got one because a stray kitten
+            was at the door to my house and wanted to come inside.
+        </p>
+        <img src="myCat.jpg" alt="cat pic here" class="center">
+    </div>
+    <br>
+    <div class="part-4-container">
+        <button class="part-4-button" onclick="colorFunc()" id="color">My Favorite Color</button>
+        <button class="part-4-button" onclick="placeFunc()"id="place">My Favorite Place</button>
+        <button class="part-4-button" onclick="ritualFunc()"id="ritual">My Favorite Ritual</button>
+    </div>
+    <div class="container">
+        <h2 class ="profile-h2">Career Goals</h2>
+        <p>My career goals are vague. One of issues historically is that the idea of a career
+            has always been somewhat odd to me. One works their entire life just in order to 
+            just hopefully live comfortably one day, while still working. 
+        </p>
+        <p>Because of this, I hope that I will be able to find a career in 
+             I am passionate about (or is at least really easy) and have a job that pays the 
+            bills and lets me live like a person.
+        </p>
+        <h2 class="profile-h2">Contact Me</h2>
+        <form>			
+            Your Name:
+			<input type="text">
+
+			Your Email:
+			<input type="text">
+			<br>
+
+            <input type="checkbox" id ="business-check">
+			<label for="business-check">Check for Business Inquiries</label>
+            <input type="submit">
+        </form>
+    </div>
+    
+    <script src="profile.js"></script>
+</body>
+</html>
+
+
+
+<br>
+<br>
+
+<a href="./home.html"><< Back </a>
